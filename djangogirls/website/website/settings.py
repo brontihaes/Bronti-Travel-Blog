@@ -1,3 +1,5 @@
+#This file is the backbone of the blog
+#Line 42 was edited so that my blog file was installed into the djangogirls file
 """
 Django settings for website project.
 
