@@ -1,3 +1,4 @@
+#This file was unedited by me as it is the master file for the blog and enables the server to be run by python using the command line 'python manage.py runserver'
 #!/usr/bin/env python
 """Django's command-line utility for administrative tasks."""
 import os
