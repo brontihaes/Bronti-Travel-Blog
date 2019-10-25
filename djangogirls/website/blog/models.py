@@ -32,3 +32,6 @@ class Comment(models.Model): #added so have access to a comment section on my bl
 
     def __str__(self):
         return self.text
+    
+def approved_comments(self):
+    return self.comments.filter(approved_comment=True) #added to be able to approve and filter comments on my blog
