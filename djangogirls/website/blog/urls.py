@@ -1,3 +1,5 @@
+#Line 8 was edited to extend my application and connect the html extensions I created 
+#This command was then linked in blog.views and imported to my URL
 from django.urls import path
 from . import views
 
