@@ -14,4 +14,4 @@ Then type: cd website.
 Now type: python manage.py runserver.
 Copy and paste this to a new tab on your web browser: http://127.0.0.1:8000/.
 Welcome to Bronti's Travel Blog.
-You can also copy and paste this to view admin of site: http://127.0.0.1:8000/admin/.
+You can also copy and paste this to view admin of site: http://127.0.0.1:8000/admin/. Admin log in is Username: brontihaes Password: 0403
