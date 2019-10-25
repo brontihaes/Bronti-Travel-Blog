@@ -4,6 +4,7 @@
 from django.shortcuts import render
 from django.shortcuts import render, get_object_or_404
 from .models import Post #enabled models to import posts
+from .forms import Post, CommentForm #enable a comment form page
 
 # Create your views here.
 def post_list(request):
