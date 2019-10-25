@@ -1,3 +1,6 @@
+# All of the text in here was edited by me. 
+#This file is where I defined my blog posts. 
+#This file was also where I added DO_NOTHING in line 8 to ask terminal to overwrite the error message that was preventing me processing forward
 # blog/models.py
 
 from django.db import models
