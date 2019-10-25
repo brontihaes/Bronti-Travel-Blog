@@ -1,5 +1,6 @@
 #This file is the backbone of the blog
-#Line 42 was edited so that my blog file was installed into the djangogirls file
+#Line 43 was edited so that my blog file was installed into the djangogirls file
+#Line 112 was edited to ensure Australia/Sydney was the timezone for the blog and posts.
 """
 Django settings for website project.
 
@@ -108,7 +109,7 @@ AUTH_PASSWORD_VALIDATORS = [
 
 LANGUAGE_CODE = 'en-us'
 
-TIME_ZONE = 'UTC'
+TIME_ZONE = 'Australia/Sydney'
 
 USE_I18N = True
 
