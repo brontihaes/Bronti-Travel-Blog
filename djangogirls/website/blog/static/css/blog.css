@@ -1,5 +1,5 @@
 .page-header {
-    background-color: #87CEFA;
+    background: linear-gradient(to bottom, #33ccff 0%, #ff99cc 100%);
     margin-top: 0;
     padding: 20px 20px 20px 40px;
 }
@@ -43,4 +43,8 @@ h1, h2, h3, h4 {
 
 .post h2 a, .post h2 a:visited {
     color: #000000;
+}
+
+.comment {
+    margin: 20px 0px 20px 20px;
 }
