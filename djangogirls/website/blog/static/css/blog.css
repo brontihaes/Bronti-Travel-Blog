@@ -39,7 +39,6 @@ h1, h2, h3, h4 {
 
 .post {
     margin-bottom: 70px;
-    color: #87CEFA
 }
 
 .comment {
@@ -47,5 +46,5 @@ h1, h2, h3, h4 {
 }
 
 .post h2 a, .post h2 a:visited {
-    color: #87CEFA;
+    color: #000000;
 }
