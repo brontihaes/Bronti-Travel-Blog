@@ -20,3 +20,6 @@ def post_remove(request, pk): #added these command lines to add a delete button
     post = get_object_or_404(Post, pk=pk)
     post.delete()
     return redirect('post_list')
+def post_draft_list(request): #added these command lines to add a draft url and button link on my blog
+    posts = Post.objects.filter(published_date__isnull=True).order_by('created_date')
+    return render(request, 'blog/post_draft_list.html', {'posts': posts}) 
