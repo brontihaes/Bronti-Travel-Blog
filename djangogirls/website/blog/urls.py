@@ -6,4 +6,5 @@ urlpatterns = [
     path('', views.post_list, name='post_list'),
     path('post/<int:pk>/', views.post_detail, name='post_detail'), #edited to extend my application and connect the html extensions I created 
     path('post/<pk>/publish/', views.post_publish, name='post_publish'), #added to enable a publish button to appear
+    path('post/<pk>/remove/', views.post_remove, name='post_remove'), #added to enable a delete button to appear
 ]
