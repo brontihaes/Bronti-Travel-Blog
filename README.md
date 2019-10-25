@@ -1,6 +1,6 @@
 # Bronti-Travel-Blog
 54063 - Coding Artefact.
-Install file djangogirls to your desktop.
+Download file djangogirls to your desktop.
 Open anaconda and create a djangoevn via terminal.
 First type 'cd djangogirls' into terminal.
 Then type 'conda create -n djangoenv python=3.6' to create the environment.
