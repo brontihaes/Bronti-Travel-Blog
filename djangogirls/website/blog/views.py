@@ -32,7 +32,7 @@ def add_comment_to_post(request, pk):
             comment = form.save(commit=False)
             comment.post = post
             comment.save()
-            return redirect('post_detail', pk=post.pk)
+            return redirect(''add_comment_to_post'', pk=post.pk) #changed post_detail to add_comment_to_post for redirect to function correctly
     else:
         form = CommentForm()
     return render(request, 'blog/add_comment_to_post.html', {'form': form})
